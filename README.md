@@ -19,7 +19,20 @@ I analyzed **103,000+ sensor readings** from **10 monitoring stations** spread a
 
 ---
 
-## 🔍 Key Insights
+## � By The Numbers
+
+<table>
+<tr>
+<td align="center"><b>103,000+</b><br/>Data Points</td>
+<td align="center"><b>10</b><br/>Monitoring Stations</td>
+<td align="center"><b>28</b><br/>Parameters Tracked</td>
+<td align="center"><b>May - Aug 2019</b><br/>Time Period</td>
+</tr>
+</table>
+
+---
+
+## �🔍 Key Insights
 
 ### 1. 🗺️ Pollution Hotspots Are Concentrated Near Transport Hubs
 
@@ -74,6 +87,15 @@ Using K-Means clustering, I identified three types of areas:
 
 ---
 
+## 🎯 Key Takeaways
+
+1. **Location matters** — Pollution varies dramatically across the city
+2. **Timing matters** — Morning rush hours are the worst
+3. **Behavior matters** — Weekend patterns prove we can improve air quality
+4. **Data can guide policy** — Targeted interventions beat blanket rules
+
+---
+
 ## 💡 Recommendations
 
 ### For City Planners
@@ -94,20 +116,7 @@ Using K-Means clustering, I identified three types of areas:
 
 ---
 
-## 📈 By The Numbers
-
-<table>
-<tr>
-<td align="center"><b>103,000+</b><br/>Data Points</td>
-<td align="center"><b>10</b><br/>Monitoring Stations</td>
-<td align="center"><b>28</b><br/>Parameters Tracked</td>
-<td align="center"><b>May - Aug 2019</b><br/>Time Period</td>
-</tr>
-</table>
-
----
-
-## 🔬 Methodology
+## � Methodology
 
 | Step | Description |
 |------|-------------|
@@ -116,24 +125,6 @@ Using K-Means clustering, I identified three types of areas:
 | **Correlation** | Identified relationships between pollutants & environment |
 | **Clustering** | K-Means to group locations by pollution behavior |
 | **Thresholds** | Compared against NAAQS safe limits |
-
----
-
-## 📁 Repository Structure
-
-```
-edathon/
-├── 📓 pune_smartcity_portfolio.ipynb  # Full analysis (run this!)
-├── 📓 eda.ipynb                       # Initial exploration
-├── 📊 Pune_SmartCity_Test_Dataset.csv # Raw sensor data
-├── 🖼️ assets/                         # Exported visualizations
-│   ├── location_ranking.png
-│   ├── hourly_patterns.png
-│   ├── weekday_weekend.png
-│   ├── cluster_analysis.png
-│   └── correlation_matrix.png
-└── 📄 README.md
-```
 
 ---
 
@@ -164,20 +155,29 @@ jupyter notebook pune_smartcity_portfolio.ipynb
 
 ---
 
-## 🎯 Key Takeaways
+## 📁 Repository Structure
 
-1. **Location matters** — Pollution varies dramatically across the city
-2. **Timing matters** — Morning rush hours are the worst
-3. **Behavior matters** — Weekend patterns prove we can improve air quality
-4. **Data can guide policy** — Targeted interventions beat blanket rules
+```
+edathon/
+├── 📓 pune_smartcity_portfolio.ipynb  # Full analysis (run this!)
+├── 📓 eda.ipynb                       # Initial exploration
+├── 📊 Pune_SmartCity_Test_Dataset.csv # Raw sensor data
+├── 🖼️ assets/                         # Exported visualizations
+│   ├── location_ranking.png
+│   ├── hourly_patterns.png
+│   ├── weekday_weekend.png
+│   ├── cluster_analysis.png
+│   └── correlation_matrix.png
+└── 📄 README.md
+```
 
 ---
 
 ## 👨‍💻 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/yourusername)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/VedantAndhale)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/VedantAndhale)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail)](mailto:vedantandhale@outlook.com)
 
 ---
 
