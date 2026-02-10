@@ -1,4 +1,4 @@
-# 🏙️ How Clean is Pune's Air? A Data Story
+# How Clean is Pune's Air? A Data Story
 
 > *Uncovering air quality patterns across India's 8th largest city using IoT sensor data*
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 The Story
+## The Story
 
 Pune — a bustling city of over 7 million people, home to IT hubs, educational institutions, and growing traffic congestion. But how does all this activity affect the air we breathe?
 
@@ -19,7 +19,7 @@ I analyzed **103,000+ sensor readings** from **10 monitoring stations** spread a
 
 ---
 
-## � By The Numbers
+## By The Numbers
 
 <table>
 <tr>
@@ -32,9 +32,9 @@ I analyzed **103,000+ sensor readings** from **10 monitoring stations** spread a
 
 ---
 
-## �🔍 Key Insights
+## Key Insights
 
-### 1. 🗺️ Pollution Hotspots Are Concentrated Near Transport Hubs
+### 1. Pollution Hotspots Are Concentrated Near Transport Hubs
 
 ![Location Ranking](assets/location_ranking.png)
 
@@ -42,7 +42,7 @@ I analyzed **103,000+ sensor readings** from **10 monitoring stations** spread a
 
 ---
 
-### 2. ⏰ Rush Hour = Danger Hour
+### 2. Rush Hour = Danger Hour
 
 ![Hourly Patterns](assets/hourly_patterns.png)
 
@@ -50,14 +50,14 @@ Pollution **spikes between 8-10 AM** — exactly when most people commute. The b
 
 | Time | Risk Level | Recommendation |
 |------|------------|----------------|
-| 5-7 AM | 🟢 Low | Best for outdoor exercise |
-| 8-10 AM | 🔴 High | Avoid outdoor activities |
-| 12-4 PM | 🟡 Moderate | Use caution |
-| 10 PM+ | 🟢 Low | Safe for evening walks |
+| 5-7 AM | Low | Best for outdoor exercise |
+| 8-10 AM | High | Avoid outdoor activities |
+| 12-4 PM | Moderate | Use caution |
+| 10 PM+ | Low | Safe for evening walks |
 
 ---
 
-### 3. 📅 Weekends Bring Relief
+### 3. Weekends Bring Relief
 
 ![Weekday vs Weekend](assets/weekday_weekend.png)
 
@@ -65,7 +65,7 @@ Pollution drops by **~15% on weekends** — direct proof that reduced traffic im
 
 ---
 
-### 4. 🎯 Three Distinct Pollution Zones
+### 4. Three Distinct Pollution Zones
 
 ![Cluster Analysis](assets/cluster_analysis.png)
 
@@ -73,13 +73,13 @@ Using K-Means clustering, I identified three types of areas:
 
 | Zone | What It Means | Action Needed |
 |------|---------------|---------------|
-| 🟢 **Green** | Consistently clean | Maintain current state |
-| 🟡 **Caution** | Occasional spikes | Enhanced monitoring |
-| 🔴 **Hotspot** | Chronically polluted | Urgent intervention |
+| **Green** | Consistently clean | Maintain current state |
+| **Caution** | Occasional spikes | Enhanced monitoring |
+| **Hotspot** | Chronically polluted | Urgent intervention |
 
 ---
 
-### 5. 🔗 Pollutants Are Interconnected
+### 5. Pollutants Are Interconnected
 
 ![Correlation Matrix](assets/correlation_matrix.png)
 
@@ -87,7 +87,7 @@ Using K-Means clustering, I identified three types of areas:
 
 ---
 
-## 🎯 Key Takeaways
+## Key Takeaways
 
 1. **Location matters** — Pollution varies dramatically across the city
 2. **Timing matters** — Morning rush hours are the worst
@@ -96,27 +96,25 @@ Using K-Means clustering, I identified three types of areas:
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 
 ### For City Planners
-```
-┌─────────────────────────────────────────────────────────┐
-│  1. Install air purifiers at Railway Station & Bus Depots │
-│  2. Implement 8-10 AM traffic restrictions in hotspots    │
-│  3. Use humidity as early warning indicator               │
-│  4. Increase green cover along major corridors            │
-└─────────────────────────────────────────────────────────┘
-```
+-  Install air purifiers at Railway Station & Bus Depots 
+-  Implement 8-10 AM traffic restrictions in hotspots    
+-  Use humidity as early warning indicator               
+-  Increase green cover along major corridors            
+
+
 
 ### For Residents
-- 🏃 Exercise before 7 AM or after 8 PM
-- 🏠 Use air purifiers if near identified hotspots
-- 📱 Check AQI apps before outdoor plans
-- 🚴 Consider cycling on weekends (cleaner air!)
+-  Exercise before 7 AM or after 8 PM
+-  Use air purifiers if near identified hotspots
+-  Check AQI apps before outdoor plans
+-  Consider cycling on weekends (cleaner air!)
 
----
 
-## � Methodology
+
+## Methodology
 
 | Step | Description |
 |------|-------------|
@@ -128,7 +126,7 @@ Using K-Means clustering, I identified three types of areas:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -139,7 +137,7 @@ Using K-Means clustering, I identified three types of areas:
 
 ---
 
-## 🚀 Run It Yourself
+## Run It Yourself
 
 ```bash
 # Clone the repo
@@ -155,25 +153,25 @@ jupyter notebook pune_smartcity_portfolio.ipynb
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 edathon/
-├── 📓 pune_smartcity_portfolio.ipynb  # Full analysis (run this!)
-├── 📓 eda.ipynb                       # Initial exploration
-├── 📊 Pune_SmartCity_Test_Dataset.csv # Raw sensor data
-├── 🖼️ assets/                         # Exported visualizations
+├──  pune_smartcity_portfolio.ipynb  # Full analysis (run this!)
+├──  eda.ipynb                       # Initial exploration
+├──  Pune_SmartCity_Test_Dataset.csv # Raw sensor data
+├──  assets/                         # Exported visualizations
 │   ├── location_ranking.png
 │   ├── hourly_patterns.png
 │   ├── weekday_weekend.png
 │   ├── cluster_analysis.png
 │   └── correlation_matrix.png
-└── 📄 README.md
+└──  README.md
 ```
 
 ---
 
-## 👨‍💻 Connect With Me
+## Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/VedantAndhale)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/VedantAndhale)
